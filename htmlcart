@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #big{
+      display: flex;
+    }
+  </style>
+</head>
+<body>
+  <div id="big">
+    <div margin-left="50px">
+      <img width="500px" height="400px"src="1.jpg" alt="">
+      <h4>Fashtion Tips</h4>
+      <h1>What Curling Irons Are The best Ones</h1>
+      <p>consectetur adisicing elit.Laborum fuga incident laboriosam volupaatas iure,delectus.</p>
+      <a href="">Read More</a>
+    </div>
+    <div margin-left="50px">
+        <img width="500px" height="400px"src="dora.jpg" alt="">
+        <h4>Fashtion Tips</h4>
+        <h1>What Curling Irons Are The best Ones</h1>
+        <p>consectetur adisicing elit.Laborum fuga incident laboriosam volupaatas iure,delectus.</p>
+        <a href="">Read More</a>
+    </div>
+    <div margin-left="50px">
+      <img width="500px" height="400px"src="green3-3.png" alt="">
+      <h4>Fashtion Tips</h4>
+      <h1>What Curling Irons Are The best Ones</h1>
+      <p>consectetur adisicing elit.Laborum fuga incident laboriosam volupaatas iure,delectus.</p>
+      <a href="">Read More</a></div>
+  </div>
+</body>
+</html>
