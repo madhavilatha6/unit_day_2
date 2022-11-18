@@ -1,0 +1,96 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>masai mentor</title>
+  <style>
+    .main-box{
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 5px<;
+        padding: 5px;
+    }
+    .mentor-box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid rgb(255, 255, 255);
+        box-shadow: rgb(114, 24, 24) 0px 1px 0px;
+        border-radius: 5vh;
+        margin: 5px;
+        overflow: hidden;
+    }
+    #mentor{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        /* border-radius: 30px; */
+    }
+    #company{
+        width: 90px;
+        height: 60px;
+        /* border: 3px solid #ccc; */
+        border-radius: 5vh;
+    }
+    p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .dev-info{
+        padding: 2px 5px 10px 30%;
+        font-weight: 400;
+        font-size: 0.89em;
+        color: rgb(112, 138, 161);
+    }
+    
+</style>
+</head>
+<body>
+  <h1 style="padding-left: 45%; padding-right: 20%;">CHOCOLATES</h1>
+    <h3 class="dev-info" >Chocolate is Sweeter than words Sending you lots of love and It can express your feeling better than words</h3>
+    <div class="main-box">
+    <div class="mentor-box">
+    <img src="1.jpg" id="mentor" alt="mentor"/>
+    <p>Hershey's</p>
+    </div>
+    <div class="mentor-box">
+        <img src="2.jpg" id="mentor" alt="mentor"/>
+        <p>Snickers</p>
+    </div>
+    <div class="mentor-box">
+        <img src="3.jpg" id="mentor" alt="mentor"/>
+        <p>Galaxy</p>
+    </div>
+    <div class="mentor-box">
+        <img src="4.jpg" id="mentor" alt="mentor"/>
+        <p>CrackHeads</p>
+    </div> 
+</div>
+<div class="main-box">
+    <div class="mentor-box">
+        <img src="5.jpg" id="mentor" alt="mentor"/>
+        <p>Ferrero Roacher</p>
+    </div> 
+    <div class="mentor-box">
+        <img src="6.jpg" id="mentor" alt="mentor"/>
+        <p>Dairy Milk</p>
+    </div>
+    <div class="mentor-box">
+        <img src="7.jpg" id="mentor" alt="mentor"/>
+        <p>Oreo</p>
+    </div>
+    <div class="mentor-box">
+        <img src="8.jpg" id="mentor" alt="mentor"/>
+        <p>AlmondJoy</p>
+    </div>
+</div>
+
+  
+</body>
+</html>
